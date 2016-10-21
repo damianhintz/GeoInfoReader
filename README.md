@@ -1,13 +1,12 @@
 GeoInfoReader v1.0-beta, 21 października 2016
 ---
-Czytnik plików danych systemu GEO-INFO V.  
+Czytnik plików GEO-INFO V i TANGO.
 
 # Cechy
 
 * prostota
 * odczyt geometrii obiektów
 * odczyt numeru operatu
-* generowanie zasięgów dla danego operatu
 
 # Pomoc
 ```c#
@@ -40,7 +39,7 @@ Czym jest produkt i dla kogo?
 
 Jak będzie wyglądał ten produkt:
 
-**GeoMapReader**
+**GeoInfoReader**
 	
 ![Dobre zdjęcie](GeoMapReader/Map.ico)
 
@@ -80,15 +79,6 @@ Jest to projekt na tydzień.
 Do zrobienia:
 
 - [ ] podręcznik użytkownika
-
-2016-09-28 v1.0-beta
-
-* [x] wczytywanie punktów (P)
-* [x] atrybuty wielokrotne (#LIST)
-* [x] lista operatów obiektu (KR)
-* [x] wyszukiwanie obiektów według atrybutu ID
-* [x] wczytywanie nagłówka (*)
-* [x] wczytywanie atrybutów (:)
 
 2016-09-21 v1.0-alfa
 
