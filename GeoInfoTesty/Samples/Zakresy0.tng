@@ -1,0 +1,43 @@
+[OPCJE]
+WersjaFormatu=1.00
+System=GEO-INFO V
+Skala=500
+Uk³ad=2000_18
+
+[OBIEKTY]
+A,GOSZZG,3,1,,
+B,,0,0,,
+B,,1,0,,
+B,,1,1,,
+B,,0,1,,
+B,,0,0,,
+C,KRG.n=brak_operatu
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2016.1
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=A309870DA3E24859B0224E2BD929B7D1
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0001
+C,_s.Obrêb.d=Domaszkowice

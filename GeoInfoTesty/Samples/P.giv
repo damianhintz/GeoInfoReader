@@ -1,0 +1,60 @@
+﻿;EKSPORT z układu 2000_18, operator wf
+;DATA: 2016-04-28, GODZ: 17:37:43
+;FORMAT: GEO-INFO V
+
+[OPCJE]
+WersjaFormatu=1.00
+System=GEO-INFO V
+Skala=500
+Układ=2000_18
+Rodzaj=ALLCFG
+DataEksportu=2016-04-28 17:37:00
+
+[KONFIGURACJE]
+Konfiguracja0=NMW250
+Konfiguracja1=NMW500
+Konfiguracja2=NMW1000
+Konfiguracja3=NMW2000
+Konfiguracja4=NMW5000
+Konfiguracja5=NMW10000
+
+[OBIEKTY]
+A,GOSZZG,3,1,,
+B,,0,0,,
+B,,1,0,,
+B,,1,1,,
+B,,0,1,,
+B,,0,0,,
+C,KRG.n=brak_operatu
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2016.1
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=A309870DA3E24859B0224E2BD929B7D1
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=błąd transformacji = 0.25 m
+C,_s.Państwo.n=Polska
+C,_s.Państwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obręb.n=0001
+C,_s.Obręb.d=Domaszkowice
+V,4,1,,,,184.860876091976,,,,0,0
+Y,NMW500
+P,"5584250",501,0,10.96,100,10,2.5,GEO-INFO,,

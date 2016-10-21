@@ -1,0 +1,59 @@
+﻿;EKSPORT z ukladu 2000_18, operator wf
+;DATA: 2016-04-28, GODZ: 17:37:43
+;FORMAT: GEO-INFO V
+
+[OPCJE]
+WersjaFormatu=1.00
+System=GEO-INFO V
+Skala=500
+Uklad=2000_18
+Rodzaj=ALLCFG
+DataEksportu=2016-04-28 17:37:00
+
+[KONFIGURACJE]
+Konfiguracja0=NMW250
+Konfiguracja1=NMW500
+Konfiguracja2=NMW1000
+Konfiguracja3=NMW2000
+Konfiguracja4=NMW5000
+Konfiguracja5=NMW10000
+
+[OBIEKTY]
+A,GEPINN,1,5970114,,
+B,,5590170.29638876,6456980.48107383,,196609
+C,MJS.n=Niwnica
+C,_number=
+C,NPD=
+C,ULI.n=
+C,BLP.n=
+C,KRG.n=2617/2013
+C,NRI=
+C,MPD.n=I
+C,MJS.d=
+C,ULI.d=
+C,BLP.d=
+C,KRG.d=dz.509         m.z. 473.414.1734,1743 ("UP-GEO" Stanis│aw Tarnawa)
+C,MPD.d=inne
+C,_identifier=AC70DC1C126B45A69FEAB07DAAEB93B9
+C,_creation_date=2014-03-19 10:16:23
+C,_modification_date=2014-03-19 10:16:23
+C,_user_name=km
+C,_user_identifier=2731007050815151
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pa˝stwo.n=Polska
+C,_s.Pa˝stwo.d=Polska
+C,_s.Wojewˇdztwo.n=16
+C,_s.Wojewˇdztwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrŕb.n=0015
+C,_s.Obrŕb.d=Niwnica
+C,_s.Arkusz_ewidencyjny.n=2
+C,_s.Arkusz_ewidencyjny.d=1:5000
+C,_counter=3
+E,5970053,Zmiany ewidencyjne G5 NMW,1,

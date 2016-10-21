@@ -1,0 +1,43 @@
+[OPCJE]
+WersjaFormatu=1.00
+System=GEO-INFO V
+Skala=500
+Uk³ad=2000_18
+
+[OBIEKTY]
+A,GOSZZG,3,1100000015,,
+B,,5589085.44,6454854.69,,
+B,,5589085.44,6458327.18,,
+B,,5592478.04,6458327.18,,
+B,,5592478.04,6454854.69,,
+B,,5589085.44,6454854.69,,
+C,KRG.n=KERG 2617/2013
+C,JSG=
+C,_number=1100000015
+C,NRI=P.1607.2014.912
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=7B0BED3E760642708014677D64297087
+C,_creation_date=2016-05-05 12:00:00
+C,_modification_date=2016-05-05 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0015
+C,_s.Obrêb.d=Niwnica

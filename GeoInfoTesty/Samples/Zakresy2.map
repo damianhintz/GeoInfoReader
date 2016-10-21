@@ -1,0 +1,14 @@
+;# Plik danych systemu GEO-MAP ver=[ 8.00]  N=[     1317609] CHK=[5ece8e55384551b57abef35d2088a01c]
+;# EXT 500 0.000 0.000 500.000 800.000 #ST=0 CS=11 CM=21
+;==================================================================================================
+;Zapisany 2016.09.30 7:00 programem GMW ver. 10.19
+;
+;Uzytkownik -># OPGK Olsztyn                               
+;
+;Operator: Damian
+;
+*1111 8388608  26 0.00000000 
+:ID[1]
+:KR[operat_2_punkty]
+P 1  0.25  0.5 ,
+P 1  0.75  0.5 ,

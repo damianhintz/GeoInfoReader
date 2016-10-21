@@ -1,0 +1,126 @@
+﻿;EKSPORT z ukladu 2000_18, operator wf
+;DATA: 2016-04-28, GODZ: 17:37:43
+;FORMAT: GEO-INFO V
+
+[OPCJE]
+WersjaFormatu=1.00
+System=GEO-INFO V
+Skala=500
+Uklad=2000_18
+Rodzaj=ALLCFG
+DataEksportu=2016-04-28 17:37:00
+
+[KONFIGURACJE]
+Konfiguracja0=NMW250
+Konfiguracja1=NMW500
+Konfiguracja2=NMW1000
+Konfiguracja3=NMW2000
+Konfiguracja4=NMW5000
+Konfiguracja5=NMW10000
+
+[OBIEKTY]
+A,GEPINN,1,436488,,
+B,,5489402.6,3756749.75,,
+C,MJS.n=Wierzbiŕcice
+C,_number=
+C,NPD=
+C,ULI.n=
+C,BLP.n=
+C,KRG.n=473-432/58/90
+C,NRI=1237k
+C,MPD.n=O
+C,MJS.d=
+C,ULI.d=
+C,BLP.d=
+C,KRG.d=
+C,MPD.d=pomiar na osnowŕ
+C,_identifier=273000600000436488
+C,_creation_date=1998-06-25
+C,_modification_date=1998-06-25
+C,_user_name=Operator 15 GI2000
+C,_user_identifier=37031412398
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pa˝stwo.n=Polska
+C,_s.Pa˝stwo.d=Polska
+C,_s.Wojewˇdztwo.n=16
+C,_s.Wojewˇdztwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrŕb.n=0024
+C,_s.Obrŕb.d=Wierzbiŕcice
+C,_s.Arkusz_ewidencyjny.n=1
+C,_s.Arkusz_ewidencyjny.d=1:5000
+C,_counter=3
+D,1.1,"",5588514.91046336,6459295.32095592,,,1.000,,,256
+Y,NMW500,273000600000346097
+D,1.1,"",5588514.91046336,6459295.32095592,,,1.000,,,256
+Y,NMW1000,273000600000346098
+D,1.1,"",5588514.91046336,6459295.32095592,,,1.000,,,256
+Y,NMW2000,273000600000346099
+D,1.1,"",5588514.91046336,6459295.32095592,,,1.000,,,256
+Y,NMW5000,273000600000346100
+
+A,GEPPGD,1,373365,,
+B,,5587128.19989836,6447157.10490651,,196609
+B,,5487799.85434634,3744643.02849736,,,,1965_4
+C,BLP.n=
+C,KRG.n=2957/14/04
+C,ISW=273000600000373365
+C,MPD.n=7
+C,MJS.n=Koperniki
+C,_number=3730
+C,NGR=
+C,NPD=
+C,NPP=
+C,NRI=
+C,TST.n=2
+C,ULI.n=
+C,BLP.d=
+C,KRG.d=
+C,MPD.d=Digitalizacja mapy lub wektoryzacja automatyczna rastra mapy z jednoczesnym wykorzystaniem wynikˇw geod. pomiarˇw terenowych
+C,MJS.d=
+C,TST.d=Nie stabilizowany
+C,ULI.d=
+C,_identifier=273000600000373365
+C,_creation_date=2004-03-11
+C,_modification_date=2007-04-30 16:11:15
+C,_user_name=MP
+C,_user_identifier=76190717332
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_idIIP.namespace=PL.PZGiK.EGiB
+C,_idIIP.local_id=273000600000373365
+C,_s.Pa˝stwo.n=Polska
+C,_s.Pa˝stwo.d=Polska
+C,_s.Wojewˇdztwo.n=16
+C,_s.Wojewˇdztwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrŕb.n=0011
+C,_s.Obrŕb.d=Koperniki
+C,_s.Arkusz_ewidencyjny.n=6
+C,_s.Arkusz_ewidencyjny.d=1:5000
+C,_counter=2
+D,1.1,"",5587127.08458658,6447160.18566157,,,1.000,,,256
+Y,NMW500,
+D,1.1,"",5587127.3211035,6447160.94004004,,,1.000,,,256
+Y,NMW1000,
+D,1.1,"",5587129.21323884,6447166.97506773,,,1.000,,,256
+Y,NMW5000,
+D,1.1,"",5587127.3211035,6447160.94004004,,,1.000,,,256
+Y,NMW500,273000600000345817
+D,1.1,"",5587127.3211035,6447160.94004004,,,1.000,,,256
+Y,NMW1000,273000600000345818
+D,1.1,"",5587127.3211035,6447160.94004004,,,1.000,,,256
+Y,NMW2000,273000600000345819
+D,1.1,"",5587127.3211035,6447160.94004004,,,1.000,,,256
+Y,NMW5000,273000600000345820
