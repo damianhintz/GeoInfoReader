@@ -1,0 +1,895 @@
+[OPCJE]
+WersjaFormatu =1.00
+System =GEO-INFO V
+Skala =500
+Uk³ad=2000_18
+
+[OBIEKTY]
+A,GOSZZG,3,1,,
+B,,5587860.97,6457834.4,,
+B,,5587860.97,6463392.14,,
+B,,5593129.07,6463392.14,,
+B,,5593129.07,6457834.4,,
+B,,5587860.97,6457834.4,,
+C,KRG.n=2958-2/2009
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2009.753
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=4bd2f72d93d8408a909f90ae09cf747f
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0002
+C,_s.Obrêb.d=Domaszkowice
+
+A,GOSZZG,3,1,,
+B,,5587860.97,6457834.4,,
+B,,5587860.97,6463392.14,,
+B,,5593129.07,6463392.14,,
+B,,5593129.07,6457834.4,,
+B,,5587860.97,6457834.4,,
+C,KRG.n=2958-141/2010
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2010.745
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=a739acdf079543b788cdb920ec78faba
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0002
+C,_s.Obrêb.d=Domaszkowice
+
+A,GOSZZG,3,1,,
+B,,5587860.97,6457834.4,,
+B,,5587860.97,6463392.14,,
+B,,5593129.07,6463392.14,,
+B,,5593129.07,6457834.4,,
+B,,5587860.97,6457834.4,,
+C,KRG.n=2958-91/2009
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2009.754
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=13213367a2034f669504130c21b86c6c
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0002
+C,_s.Obrêb.d=Domaszkowice
+
+A,GOSZZG,3,1,,
+B,,5582947.82,6459062.64,,
+B,,5582947.82,6463390.75,,
+B,,5587095.62,6463390.75,,
+B,,5587095.62,6459062.64,,
+B,,5582947.82,6459062.64,,
+C,KRG.n=3006-20/2010
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2010.746
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=8103e773bf2c47ee86751f217a840f74
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0013
+C,_s.Obrêb.d=Lipowa
+
+A,GOSZZG,3,1,,
+B,,5587860.97,6457834.4,,
+B,,5587860.97,6463392.14,,
+B,,5593129.07,6463392.14,,
+B,,5593129.07,6457834.4,,
+B,,5587860.97,6457834.4,,
+C,KRG.n=2958-154/2010
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2010.747
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=f7543bd2f6a848a68223027ceeba7f7b
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0002
+C,_s.Obrêb.d=Domaszkowice
+
+A,GOSZZG,3,1,,
+B,,5592761.28,6453821.82,,
+B,,5592761.28,6457077.84,,
+B,,5594786.15,6457077.84,,
+B,,5594786.15,6453821.82,,
+B,,5592761.28,6453821.82,,
+C,KRG.n=2958-50/2009
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2009.755
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=ad49bb0c7a2446dda712112bf69dd407
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0010
+C,_s.Obrêb.d=Konradowa
+
+A,GOSZZG,3,1,,
+B,,5585734.16,6453470.61,,
+B,,5585734.16,6457884.47,,
+B,,5590485.69,6457884.47,,
+B,,5590485.69,6453470.61,,
+B,,5585734.16,6453470.61,,
+C,KRG.n=797/2013
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2013.650
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=c29033807e9d4033881f685f10851a47
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0005
+C,_s.Obrêb.d=Hajduki Nyskie
+
+A,GOSZZG,3,1,,
+B,,5587860.97,6457834.4,,
+B,,5587860.97,6463392.14,,
+B,,5593129.07,6463392.14,,
+B,,5593129.07,6457834.4,,
+B,,5587860.97,6457834.4,,
+C,KRG.n=2958-124/2010
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2010.748
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=f547972de8d24ba29c5c9075bd8baa1f
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0002
+C,_s.Obrêb.d=Domaszkowice
+
+A,GOSZZG,3,1,,
+B,,5587860.97,6457834.4,,
+B,,5587860.97,6463392.14,,
+B,,5593129.07,6463392.14,,
+B,,5593129.07,6457834.4,,
+B,,5587860.97,6457834.4,,
+C,KRG.n=2958-109/2008
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2008.747
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=d95ac04dfdf04babb14f92a80e501625
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0002
+C,_s.Obrêb.d=Domaszkowice
+
+A,GOSZZG,3,1,,
+B,,5589085.44,6454854.69,,
+B,,5589085.44,6458327.18,,
+B,,5592478.04,6458327.18,,
+B,,5592478.04,6454854.69,,
+B,,5589085.44,6454854.69,,
+C,KRG.n=2958-5/2011
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2011.796
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=4f22d3baa224485bba3f11da92958f25
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0015
+C,_s.Obrêb.d=Niwnica
+
+A,GOSZZG,3,1,,
+B,,5589085.44,6454854.69,,
+B,,5589085.44,6458327.18,,
+B,,5592478.04,6458327.18,,
+B,,5592478.04,6454854.69,,
+B,,5589085.44,6454854.69,,
+C,KRG.n=316/2014
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2014.2126
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=6a7731fd201e4b26b8aa2f7aee94b8a1
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0015
+C,_s.Obrêb.d=Niwnica
+
+A,GOSZZG,3,1,,
+B,,5582947.82,6459062.64,,
+B,,5582947.82,6463390.75,,
+B,,5587095.62,6463390.75,,
+B,,5587095.62,6459062.64,,
+B,,5582947.82,6459062.64,,
+C,KRG.n=1932/2012
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2012.696
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=f388c28247c1444aa741c4844d34d886
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0013
+C,_s.Obrêb.d=Lipowa
+
+A,GOSZZG,3,1,,
+B,,5589085.44,6454854.69,,
+B,,5589085.44,6458327.18,,
+B,,5592478.04,6458327.18,,
+B,,5592478.04,6454854.69,,
+B,,5589085.44,6454854.69,,
+C,KRG.n=2388/2013
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2013.651
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=0aaacd08060448e4a81d8e19a3133570
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0015
+C,_s.Obrêb.d=Niwnica
+
+A,GOSZZG,3,1,,
+B,,5589085.44,6454854.69,,
+B,,5589085.44,6458327.18,,
+B,,5592478.04,6458327.18,,
+B,,5592478.04,6454854.69,,
+B,,5589085.44,6454854.69,,
+C,KRG.n=2536/2013
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2013.652
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=0e2103c3447d417baef094b440200bf6
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0015
+C,_s.Obrêb.d=Niwnica
+
+A,GOSZZG,3,1,,
+B,,5582947.82,6459062.64,,
+B,,5582947.82,6463390.75,,
+B,,5587095.62,6463390.75,,
+B,,5587095.62,6459062.64,,
+B,,5582947.82,6459062.64,,
+C,KRG.n=3006-26/2011
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2011.797
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=cdfbfc15a1cd4d44950288ec002a7b1e
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0013
+C,_s.Obrêb.d=Lipowa
+
+A,GOSZZG,3,1,,
+B,,5585734.16,6453470.61,,
+B,,5585734.16,6457884.47,,
+B,,5590485.69,6457884.47,,
+B,,5590485.69,6453470.61,,
+B,,5585734.16,6453470.61,,
+C,KRG.n=3006-70/2011
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2011.798
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=b04adba82cee41448d0bb52c4c642e88
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0005
+C,_s.Obrêb.d=Hajduki Nyskie
+
+A,GOSZZG,3,1,,
+B,,5582947.82,6459062.64,,
+B,,5582947.82,6463390.75,,
+B,,5587095.62,6463390.75,,
+B,,5587095.62,6459062.64,,
+B,,5582947.82,6459062.64,,
+C,KRG.n=3007-22/2010
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2010.749
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=35401901c658401890eb1162c0474258
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0013
+C,_s.Obrêb.d=Lipowa
+
+A,GOSZZG,3,1,,
+B,,5589085.44,6454854.69,,
+B,,5589085.44,6458327.18,,
+B,,5592478.04,6458327.18,,
+B,,5592478.04,6454854.69,,
+B,,5589085.44,6454854.69,,
+C,KRG.n=2958-110/2011
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2011.799
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=988b9cba3b6548d4abc86818db98da3a
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0015
+C,_s.Obrêb.d=Niwnica
+
+A,GOSZZG,3,1,,
+B,,5589085.44,6454854.69,,
+B,,5589085.44,6458327.18,,
+B,,5592478.04,6458327.18,,
+B,,5592478.04,6454854.69,,
+B,,5589085.44,6454854.69,,
+C,KRG.n=2958-12/2011
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2011.800
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=517f698cba024e26af01324e74d5166b
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0015
+C,_s.Obrêb.d=Niwnica
+
+A,GOSZZG,3,1,,
+B,,5589085.44,6454854.69,,
+B,,5589085.44,6458327.18,,
+B,,5592478.04,6458327.18,,
+B,,5592478.04,6454854.69,,
+B,,5589085.44,6454854.69,,
+C,KRG.n=2958-128/2011
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2011.801
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=c100c22c6d8c4d90be831ebc496cb8e7
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0015
+C,_s.Obrêb.d=Niwnica
+
+A,GOSZZG,3,1,,
+B,,5589085.44,6454854.69,,
+B,,5589085.44,6458327.18,,
+B,,5592478.04,6458327.18,,
+B,,5592478.04,6454854.69,,
+B,,5589085.44,6454854.69,,
+C,KRG.n=2958-137/2010
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2010.750
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=d03a6d783b214fcda08b8f47171367ec
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0015
+C,_s.Obrêb.d=Niwnica
+
+A,GOSZZG,3,1,,
+B,,5589085.44,6454854.69,,
+B,,5589085.44,6458327.18,,
+B,,5592478.04,6458327.18,,
+B,,5592478.04,6454854.69,,
+B,,5589085.44,6454854.69,,
+C,KRG.n=2958-48/2011
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2011.802
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=d8624e748f854a8ca2de667e70729165
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0015
+C,_s.Obrêb.d=Niwnica
+
+A,GOSZZG,3,1,,
+B,,5587860.97,6457834.4,,
+B,,5587860.97,6463392.14,,
+B,,5593129.07,6463392.14,,
+B,,5593129.07,6457834.4,,
+B,,5587860.97,6457834.4,,
+C,KRG.n=2958-1/2008
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2008.748
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=0f94e61aa8de4cf3ae92f1c0c205357a
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0002
+C,_s.Obrêb.d=Domaszkowice
+
+A,GOSZZG,3,1,,
+B,,5587860.97,6457834.4,,
+B,,5587860.97,6463392.14,,
+B,,5593129.07,6463392.14,,
+B,,5593129.07,6457834.4,,
+B,,5587860.97,6457834.4,,
+C,KRG.n=2958-20/2008
+C,JSG=
+C,_number=1
+C,NRI=P.1607.2008.749
+C,OPT.n=
+C,NZA=
+C,ROZ=
+C,TZG.n=
+C,KRG.d=
+C,OPT.d=
+C,TZG.d=
+C,_identifier=98ea11277b4144be8b1f2905896c59be
+C,_creation_date=2016-05-04 12:00:00
+C,_modification_date=2016-05-04 12:00:00
+C,_user_name=opgk
+C,_user_identifier=B982CEF7B95D46BA844CB8DBA46BF90E
+C,_version_number=1
+C,_status=1
+C,_access_level=0 - nie
+C,_remarks=
+C,_s.Pañstwo.n=Polska
+C,_s.Pañstwo.d=Polska
+C,_s.Województwo.n=16
+C,_s.Województwo.d=opolskie
+C,_s.Powiat.n=1607
+C,_s.Powiat.d=nyski
+C,_s.Jednostka_ewidencyjna.n=160705_5
+C,_s.Jednostka_ewidencyjna.d=Nysa - obszar wiejski
+C,_s.Obrêb.n=0002
+C,_s.Obrêb.d=Domaszkowice
+
