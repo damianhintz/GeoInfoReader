@@ -12,14 +12,14 @@ namespace GeoInfoReader
     /// </summary>
     public class TangoWriter
     {
-        MapaGeoInfo _zakresy;
+        MapaGeoInfo _mapa;
         List<string> _records = new List<string>();
         int _id = 1;
         int _numbers = 2147480000 / 2;
 
         public TangoWriter(MapaGeoInfo zakresy)
         {
-            _zakresy = zakresy;
+            _mapa = zakresy;
         }
 
         public void Zapisz(string fileName)
@@ -32,14 +32,14 @@ namespace GeoInfoReader
             AddRecord("Układ=2000_18");
             AddRecord(string.Empty);
             AddRecord("[OBIEKTY]");
-            foreach (var zakres in _zakresy)
+            foreach (var zakres in _mapa)
             {
                 AddRecord(FixId(zakres.ToTangoA()));
                 foreach (var punkt in zakres.Punkty) AddRecord(punkt.ToTangoB());
                 foreach (var atrybut in zakres.Atrybuty)
                 {
                     var record = atrybut.ToTangoC();
-                    AddRecord(FixAtrybutes(record));
+                    AddRecord(FixAtrybuty(record));
                 }
                 AddRecord(string.Empty);
             }
@@ -48,7 +48,7 @@ namespace GeoInfoReader
 
         void AddRecord(string record) { _records.Add(record); }
 
-        string FixAtrybutes(string record)
+        string FixAtrybuty(string record)
         {
             if (record.StartsWith("C,_number=")) return "C,_number=" + _numbers++;
             else if (record.Equals("C,TZG.n=")) return "C,TZG.n=28";

@@ -12,21 +12,21 @@ namespace GeoInfoReader
     /// </summary>
     public class MapaGeoInfo : IEnumerable<ElementGeoInfo>
     {
-        List<ElementGeoInfo> _zakresy = new List<ElementGeoInfo>();
+        List<ElementGeoInfo> _elementy = new List<ElementGeoInfo>();
 
-        public void DodajZakres(ElementGeoInfo zakres)
+        public void DodajElement(ElementGeoInfo element)
         {
-            if (zakres == null) throw new ArgumentNullException("Dodawany zakres nie może być null");
-            _zakresy.Add(zakres);
+            if (element == null) throw new ArgumentNullException("Dodawany element nie może być null");
+            _elementy.Add(element);
         }
 
         public ElementGeoInfo Szukaj(string numerOperatu)
         {
             var normalnyOperat = numerOperatu.NormalizujNumerOperatu();
-            return _zakresy.SingleOrDefault(z => normalnyOperat.Equals(z.Operat.NormalizujNumerOperatu()));
+            return _elementy.SingleOrDefault(z => normalnyOperat.Equals(z.Operat.NormalizujNumerOperatu()));
         }
 
-        public IEnumerator<ElementGeoInfo> GetEnumerator() { return _zakresy.GetEnumerator(); }
+        public IEnumerator<ElementGeoInfo> GetEnumerator() { return _elementy.GetEnumerator(); }
         IEnumerator IEnumerable.GetEnumerator() { throw new NotImplementedException(); }
     }
 }

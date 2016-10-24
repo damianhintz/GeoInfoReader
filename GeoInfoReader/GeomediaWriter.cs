@@ -11,18 +11,18 @@ namespace GeoInfoReader
     /// </summary>
     public class GeomediaWriter
     {
-        MapaGeoInfo _zakresy;
+        MapaGeoInfo _mapa;
         List<string> _records = new List<string>();
 
         public GeomediaWriter(MapaGeoInfo zakresy)
         {
-            _zakresy = zakresy;
+            _mapa = zakresy;
         }
 
         public void Zapisz(string fileName)
         {
             _records.Clear();
-            foreach (var zakres in _zakresy)
+            foreach (var zakres in _mapa)
             {
                 //gm.serock_cz1 5823840.73 7498257.55 5823765.90 7498269.65
                 var punkty = from p in zakres.Punkty select p.X + " " + p.Y;

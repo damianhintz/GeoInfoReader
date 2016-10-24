@@ -41,7 +41,7 @@ namespace GeoInfoReader
                         zasięg.DodajAtrybut(new AtrybutGeoInfo("NRI", jednostkaEwidencyjna + "_" + numerObrębu));
                         zasięg.DodajAtrybut(new AtrybutGeoInfo("_s.Jednostka_ewidencyjna.n", jednostkaEwidencyjna));
                         zasięg.DodajAtrybut(new AtrybutGeoInfo("_s.Obręb.n", numerObrębu));
-                        _mapa.DodajZakres(zasięg);
+                        _mapa.DodajElement(zasięg);
                         var minX = double.MaxValue;
                         var minY = double.MaxValue;
                         var maxX = 0.0;
@@ -65,7 +65,7 @@ namespace GeoInfoReader
                         ogólnyZasięg.DodajPunkt(new PunktOparciaGeoInfo(minX, maxY));
                         ogólnyZasięg.DodajPunkt(new PunktOparciaGeoInfo(maxX, minY));
                         ogólnyZasięg.DodajPunkt(new PunktOparciaGeoInfo(minX, minY));
-                        _mapaOgólna.DodajZakres(ogólnyZasięg);
+                        _mapaOgólna.DodajElement(ogólnyZasięg);
                     }
                 }
             }

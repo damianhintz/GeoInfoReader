@@ -8,11 +8,11 @@ using GeoInfoReader.Rozszerzenia;
 namespace GeoInfoReader
 {
     /// <summary>
-    /// Czytnik obiektów z pliku Tango.
+    /// Czytnik obiektów z pliku TANGO.
     /// </summary>
     public class TangoReader
     {
-        MapaGeoInfo _zakresy;
+        MapaGeoInfo _mapa;
 
         bool NieKoniec { get { return _index < _records.Length; } }
         bool RecordA { get { return CurrentRecord.StartsWith("A,"); } }
@@ -39,9 +39,9 @@ namespace GeoInfoReader
         string[] _records;
         int _index;
 
-        public TangoReader(MapaGeoInfo zakresy)
+        public TangoReader(MapaGeoInfo mapa)
         {
-            _zakresy = zakresy;
+            _mapa = mapa;
         }
 
         public void Wczytaj(string fileName)
@@ -50,14 +50,14 @@ namespace GeoInfoReader
             _index = 0;
             while (NieKoniec)
             {
-                if (RecordA) ReadZakres();
+                if (RecordA) ReadObiekt();
                 else NextRecord();
             }
         }
 
         void NextRecord() { _index++; }
 
-        void ReadZakres()
+        void ReadObiekt()
         {
             var recordA = CurrentRecord;
             var zakres = recordA.ParsujElement();
@@ -89,7 +89,7 @@ namespace GeoInfoReader
                 }
                 NextRecord();
             }
-            _zakresy.DodajZakres(zakres);
+            _mapa.DodajElement(zakres);
         }
 
     }

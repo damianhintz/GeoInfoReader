@@ -19,7 +19,7 @@ namespace NysaZakresyTesty.GeoInfo
         public void test_czy_zakresy_zostały_dodane()
         {
             var zakresy = new MapaGeoInfo();
-            zakresy.DodajZakres(new ElementGeoInfo(kod: "GOSZZG", typ: 1));
+            zakresy.DodajElement(new ElementGeoInfo(kod: "GOSZZG", typ: 1));
             Assert.AreEqual(expected: 1, actual: zakresy.Count());
         }
 
@@ -27,7 +27,7 @@ namespace NysaZakresyTesty.GeoInfo
         public void test_czy_zakresy_nie_zostały_dodane()
         {
             var zakresy = new MapaGeoInfo();
-            zakresy.DodajZakres(null);
+            zakresy.DodajElement(null);
             Assert.Fail();
         }
 
@@ -39,7 +39,7 @@ namespace NysaZakresyTesty.GeoInfo
             //C,KRG.n=473-414/12/1980
             var numerOperatu = new AtrybutGeoInfo(nazwa: "KRG.n", wartość: "473-414/12/1980");
             zakres.DodajAtrybut(atrybut: numerOperatu);
-            zakresy.DodajZakres(zakres);
+            zakresy.DodajElement(zakres);
             Assert.AreEqual(expected: 1, actual: zakresy.Count());
             var znalezionyZakres = zakresy.Szukaj(numerOperatu: "473-414/12/1980");
             Assert.IsNotNull(znalezionyZakres);
@@ -55,7 +55,7 @@ namespace NysaZakresyTesty.GeoInfo
             //C,KRG.n=473-414/12/1980
             var numerOperatu = new AtrybutGeoInfo(nazwa: "KRG.n", wartość: "473-414/12/1980");
             zakres.DodajAtrybut(atrybut: numerOperatu);
-            zakresy.DodajZakres(zakres);
+            zakresy.DodajElement(zakres);
             Assert.AreEqual(expected: 1, actual: zakresy.Count());
             var znalezionyZakres = zakresy.Szukaj(numerOperatu: "473_1980");
             Assert.IsNull(znalezionyZakres);
@@ -69,7 +69,7 @@ namespace NysaZakresyTesty.GeoInfo
             //C,KRG.n=473-414/12/1980
             var numerOperatu = new AtrybutGeoInfo(nazwa: "KRG.n", wartość: "473-414/12/1980");
             zakres.DodajAtrybut(atrybut: numerOperatu);
-            zakresy.DodajZakres(zakres);
+            zakresy.DodajElement(zakres);
             Assert.AreEqual(expected: 1, actual: zakresy.Count());
             var znalezionyZakres = zakresy.Szukaj(numerOperatu: "473_414/12_80");
             Assert.IsNotNull(znalezionyZakres);
@@ -83,8 +83,8 @@ namespace NysaZakresyTesty.GeoInfo
             //C,KRG.n=473-414/12/1980
             var numerOperatu = new AtrybutGeoInfo(nazwa: "KRG.n", wartość: "473-414/12/1980");
             zakres.DodajAtrybut(atrybut: numerOperatu);
-            zakresy.DodajZakres(zakres);
-            zakresy.DodajZakres(zakres);
+            zakresy.DodajElement(zakres);
+            zakresy.DodajElement(zakres);
             Assert.AreEqual(expected: 2, actual: zakresy.Count());
             zakresy.Szukaj(numerOperatu: "473-414/12/1980");
             Assert.Fail();
