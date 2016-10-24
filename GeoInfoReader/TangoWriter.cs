@@ -14,8 +14,6 @@ namespace GeoInfoReader
     {
         MapaGeoInfo _mapa;
         List<string> _records = new List<string>();
-        int _id = 1;
-        int _numbers = 2147480000 / 2;
 
         public TangoWriter(MapaGeoInfo zakresy)
         {
@@ -34,12 +32,12 @@ namespace GeoInfoReader
             AddRecord("[OBIEKTY]");
             foreach (var zakres in _mapa)
             {
-                AddRecord(FixId(zakres.ToTangoA()));
+                AddRecord(zakres.ToTangoA());
                 foreach (var punkt in zakres.Punkty) AddRecord(punkt.ToTangoB());
                 foreach (var atrybut in zakres.Atrybuty)
                 {
                     var record = atrybut.ToTangoC();
-                    AddRecord(FixAtrybuty(record));
+                    AddRecord(record);
                 }
                 AddRecord(string.Empty);
             }
@@ -47,19 +45,5 @@ namespace GeoInfoReader
         }
 
         void AddRecord(string record) { _records.Add(record); }
-
-        string FixAtrybuty(string record)
-        {
-            if (record.StartsWith("C,_number=")) return "C,_number=" + _numbers++;
-            else if (record.Equals("C,TZG.n=")) return "C,TZG.n=28";
-            else if (record.Equals("C,TZG.d=")) return "C,TZG.d=operat techniczny";
-            else return record;
-        }
-
-        string FixId(string record)
-        {
-            if (record.StartsWith("A,GOSZZG,3,")) return "A,GOSZZG,3," + (_id++) + ",,";
-            else return record;
-        }
     }
 }
