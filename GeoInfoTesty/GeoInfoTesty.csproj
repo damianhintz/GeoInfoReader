@@ -39,6 +39,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\GeoMapReader\GeoMapReader-v1.0.2-beta\GeoMapDomena.dll</HintPath>
     </Reference>
+    <Reference Include="Shouldly, Version=2.8.2.0, Culture=neutral, PublicKeyToken=6042cbcb05cbc941, processorArchitecture=MSIL">
+      <HintPath>..\packages\Shouldly.2.8.2\lib\net451\Shouldly.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -62,6 +66,7 @@
     <Compile Include="GeoInfoZakresyReaderTest.cs" />
     <Compile Include="GeoInfoZakresyTest.cs" />
     <Compile Include="MapaGeoInfoTest.cs" />
+    <Compile Include="GeomediaWriterTest.cs" />
     <Compile Include="ZakresTest.cs" />
     <Compile Include="TangoReaderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,6 +78,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Samples\Olsztyn1.tng" />
     <None Include="Samples\Operaty1965.giv" />
     <None Include="Samples\OperatyWybrane.giv" />

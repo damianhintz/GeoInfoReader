@@ -13,22 +13,40 @@ namespace GeoInfoReader
     {
         MapaGeoInfo _mapa;
         List<string> _records = new List<string>();
+        HashSet<string> _atrybuty = new HashSet<string> { "NRI" };
 
-        public GeomediaWriter(MapaGeoInfo zakresy)
+        public GeomediaWriter(MapaGeoInfo zakresy, params string[] atrybuty)
         {
             _mapa = zakresy;
         }
 
+        public void IncludeAttribute(string atr)
+        {
+            if (string.IsNullOrWhiteSpace(atr)) throw new ArgumentException("atr != null");
+            _atrybuty.Add(atr);
+        }
+
+        public void ClearAttributes() { _atrybuty.Clear(); }
+
         public void Zapisz(string fileName)
         {
             _records.Clear();
-            foreach (var zakres in _mapa)
+            
+            foreach (var obj in _mapa)
             {
+                var values = new List<string>();
+                foreach(var atr in _atrybuty)
+                {
+                    var atrFound = obj.Atrybuty.SingleOrDefault(a => atr.Equals(a.Nazwa));
+                    var atrValue = atrFound == null ? "_" + atr : atrFound.Wartość;
+                    values.Add(atrValue.Replace(" ", "_")); //bez spacji
+                }
+                var valuesJoin = string.Join(" ", values);
                 //gm.serock_cz1 5823840.73 7498257.55 5823765.90 7498269.65
-                var punkty = from p in zakres.Punkty select p.X + " " + p.Y;
+                var punkty = from p in obj.Punkty select p.X + " " + p.Y;
                 var punktyJoin = string.Join(" ", punkty);
-                var nazwa = zakres.NumerZasobu.Replace(" ", "_"); //nie może być spacji
-                AddRecord(nazwa + " " + punktyJoin);
+                //var nazwa = obj.NumerZasobu.Replace(" ", "_"); //nie może być spacji
+                AddRecord(valuesJoin + " " + punktyJoin);
             }
             File.WriteAllLines(fileName, _records, Encoding.GetEncoding(1250));
         }
