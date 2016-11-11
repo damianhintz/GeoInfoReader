@@ -14,7 +14,7 @@ namespace NysaZakresyTesty
         {
             var map = new MapaGeoInfo();
             var reader = new TangoReader(map);
-            var fileName = @"c:\Users\dhintz\Downloads\160705_05_GOSZZG.giv";
+            var fileName = @"..\..\Samples\GOSZZG.giv";
             reader.Wczytaj(fileName);
             map.Count().ShouldBe(26890);
             var writer = new GeomediaWriter(map);
