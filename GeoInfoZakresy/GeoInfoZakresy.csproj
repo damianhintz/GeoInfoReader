@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{557AA63C-93D0-49C8-B744-6CE7C868DA4F}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{B8E438F0-3EF1-4EC5-8D05-1A03A91EA4CE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GeoInfoReader</RootNamespace>
-    <AssemblyName>GeoInfoReader</AssemblyName>
+    <RootNamespace>GeoInfoZakresy</RootNamespace>
+    <AssemblyName>GeoInfoZakresy</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -52,31 +55,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AtrybutGeoInfo.cs" />
-    <Compile Include="DokumentGeoInfo.cs" />
-    <Compile Include="Rozszerzenia\DokumentParser.cs" />
-    <Compile Include="EtykietaGeoInfo.cs" />
-    <Compile Include="GeomediaWriter.cs" />
-    <Compile Include="Rozszerzenia\ElementRozszerzenia.cs" />
-    <Compile Include="ZasięgiObrębów.cs" />
+    <Compile Include="Domain\IndeksP.cs" />
+    <Compile Include="Domain\RaportDowolny.cs" />
+    <Compile Include="Domain\Rozszerzenia\ZakresyRozszerzenia.cs" />
+    <Compile Include="Domain\Zakresy.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PunktOparciaGeoInfo.cs" />
-    <Compile Include="RelacjaGeoInfo.cs" />
-    <Compile Include="MapaGeoInfo.cs" />
-    <Compile Include="Rozszerzenia\AtrybutParser.cs" />
-    <Compile Include="Rozszerzenia\DummyParser.cs" />
-    <Compile Include="Rozszerzenia\ElementParser.cs" />
-    <Compile Include="Rozszerzenia\OperatRozszerzenia.cs" />
-    <Compile Include="Rozszerzenia\PunktParser.cs" />
-    <Compile Include="Rozszerzenia\TangoRozszerzenia.cs" />
-    <Compile Include="ElementGeoInfo.cs" />
-    <Compile Include="Tables\GeoInfoZakresy.cs" />
-    <Compile Include="Tables\GeoInfoZakresyReader.cs" />
-    <Compile Include="TangoReader.cs" />
-    <Compile Include="TangoWriter.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeoInfoReader\GeoInfoReader.csproj">
+      <Project>{557aa63c-93d0-49c8-b744-6ce7c868da4f}</Project>
+      <Name>GeoInfoReader</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
