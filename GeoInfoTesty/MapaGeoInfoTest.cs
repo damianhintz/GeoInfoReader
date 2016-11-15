@@ -2,12 +2,39 @@
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GeoInfoReader;
+using Shouldly;
 
 namespace NysaZakresyTesty.GeoInfo
 {
     [TestClass]
     public class MapaGeoInfoTest
     {
+        [TestMethod]
+        public void MapaGeoInfo_ShouldHaveUniqueObjects()
+        {
+            var map = new MapaGeoInfo();
+            var element = new ElementGeoInfo("GOSZZG", 3);
+            element.DodajAtrybut(new AtrybutGeoInfo("_identifier", "Id1"));
+            map.DodajElement(element);
+            Should.Throw<InvalidOperationException>(() => { map.DodajElement(element); });
+        }
+
+        [TestMethod]
+        public void MapaGeoInfo_ShouldHaveTwoUniqueObjects()
+        {
+            var map = new MapaGeoInfo();
+            var element = new ElementGeoInfo("GOSZZG", 3);
+            element.DodajAtrybut(new AtrybutGeoInfo("_identifier", "Id1"));
+            map.DodajElement(element);
+            var element2 = new ElementGeoInfo("GOSZZG", 3);
+            element2.DodajAtrybut(new AtrybutGeoInfo("_identifier", "Id2"));
+            map.DodajElement(element2);
+            map.Count().ShouldBe(expected: 2);
+            map.SzukajId("Id1").ShouldNotBeNull();
+            map.SzukajId("Id2").ShouldNotBeNull();
+            map.SzukajId("Id3").ShouldBeNull();
+        }
+
         [TestMethod]
         public void test_czy_brak_zakresów()
         {

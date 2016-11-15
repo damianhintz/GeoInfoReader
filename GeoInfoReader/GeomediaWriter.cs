@@ -14,6 +14,7 @@ namespace GeoInfoReader
         MapaGeoInfo _mapa;
         List<string> _records = new List<string>();
         HashSet<string> _atrybuty = new HashSet<string> { "NRI" };
+        List<Func<ElementGeoInfo, string>> _dynamiczneAtrybuty = new List<Func<ElementGeoInfo, string>>();
 
         public GeomediaWriter(MapaGeoInfo zakresy, params string[] atrybuty)
         {
@@ -24,6 +25,12 @@ namespace GeoInfoReader
         {
             if (string.IsNullOrWhiteSpace(atr)) throw new ArgumentException("atr != null");
             _atrybuty.Add(atr);
+        }
+
+        public void IncludeDynamicAttribute(string atr, Func<ElementGeoInfo, string> func)
+        {
+            if (string.IsNullOrWhiteSpace(atr)) throw new ArgumentException("atr != null");
+            _dynamiczneAtrybuty.Add(func);
         }
 
         public void ClearAttributes() { _atrybuty.Clear(); }
@@ -40,6 +47,10 @@ namespace GeoInfoReader
                     var atrFound = obj.Atrybuty.SingleOrDefault(a => atr.Equals(a.Nazwa));
                     var atrValue = atrFound == null ? "_" + atr : atrFound.Wartość;
                     values.Add(atrValue.Replace(" ", "_")); //bez spacji
+                }
+                foreach(var atr in _dynamiczneAtrybuty)
+                {
+                    values.Add(atr(obj));
                 }
                 var valuesJoin = string.Join(" ", values);
                 //gm.serock_cz1 5823840.73 7498257.55 5823765.90 7498269.65

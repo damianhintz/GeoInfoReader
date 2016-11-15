@@ -13,11 +13,23 @@ namespace GeoInfoReader
     public class MapaGeoInfo : IEnumerable<ElementGeoInfo>
     {
         List<ElementGeoInfo> _elementy = new List<ElementGeoInfo>();
+        Dictionary<string, ElementGeoInfo> _indeksId = new Dictionary<string, ElementGeoInfo>();
 
         public void DodajElement(ElementGeoInfo element)
         {
-            if (element == null) throw new ArgumentNullException("Dodawany element nie może być null");
+            if (element == null)
+                throw new ArgumentNullException("Dodawany element nie może być null");
             _elementy.Add(element);
+            var id = element.Identifier;
+            if (_indeksId.ContainsKey(id))
+                throw new InvalidOperationException(
+                    message: "Mapa zawiera już obiekt z takim identyfikatorem: " + id);
+            _indeksId.Add(id, element);
+        }
+
+        public ElementGeoInfo SzukajId(string id)
+        {
+            return _indeksId.ContainsKey(id) ? _indeksId[id] : null;
         }
 
         public ElementGeoInfo Szukaj(string numerOperatu)

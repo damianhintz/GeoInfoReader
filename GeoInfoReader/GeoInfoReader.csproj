@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AtrybutGeoInfo.cs" />
+    <Compile Include="DokumentGeoInfo.cs" />
+    <Compile Include="Rozszerzenia\DokumentParser.cs" />
     <Compile Include="EtykietaGeoInfo.cs" />
     <Compile Include="GeomediaWriter.cs" />
     <Compile Include="ZasięgiObrębów.cs" />

@@ -8,7 +8,6 @@ namespace GeoInfoReader.Rozszerzenia
 {
     static class DummyParser
     {
-        public static void ParsujDokument(this string record) { }
         public static void ParsujEtykietę(this string record) { }
         public static void ParsujRelację(this string record) { }
         public static void ParsujSkalę(this string record) { }

@@ -24,6 +24,14 @@ namespace GeoInfoReader
         #endregion
 
         #region Lista atrybutów i ich wartości
+        public string Identifier
+        {
+            get
+            {
+                var id = Atrybuty.Single(a => "_identifier".Equals(a.Nazwa));
+                return id.Wartość;
+            }
+        }
         public string NumerJednostki
         {
             get
@@ -70,6 +78,11 @@ namespace GeoInfoReader
         List<AtrybutGeoInfo> _atrybuty = new List<AtrybutGeoInfo>();
         #endregion
 
+        #region Dokumenty
+        public IEnumerable<DokumentGeoInfo> Dokumenty { get { return _dokumenty; } }
+        List<DokumentGeoInfo> _dokumenty = new List<DokumentGeoInfo>();
+        #endregion
+
         #region Etykieta i jej położenie
         public IEnumerable<EtykietaGeoInfo> Etykiety { get { return _etykiety; } }
         List<EtykietaGeoInfo> _etykiety = new List<EtykietaGeoInfo>();
@@ -98,6 +111,11 @@ namespace GeoInfoReader
         public void DodajAtrybut(AtrybutGeoInfo atrybut)
         {
             _atrybuty.Add(atrybut);
+        }
+
+        public void DodajDokument(DokumentGeoInfo dokument)
+        {
+            _dokumenty.Add(dokument);
         }
     }
 }

@@ -2,12 +2,46 @@
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GeoInfoReader;
+using Shouldly;
 
 namespace NysaZakresyTesty
 {
     [TestClass]
-    public class ZakresTest
+    public class ElementGeoInfoTest
     {
+        [TestMethod]
+        public void ElementGeoInfo_ShouldNotHaveDocuments()
+        {
+            var element = new ElementGeoInfo(kod: "GOSZZG", typ: 1);
+            element.Dokumenty.ShouldBeEmpty();
+        }
+
+        [TestMethod]
+        public void ElementGeoInfo_ShouldHaveOneDocument()
+        {
+            var element = new ElementGeoInfo(kod: "GOSZZG", typ: 1);
+            var dokument = new DokumentGeoInfo();
+            element.DodajDokument(dokument);
+            element.Dokumenty.ShouldContain(dokument);
+            element.Dokumenty.Count().ShouldBe(expected: 1);
+        }
+
+        [TestMethod]
+        public void ElementGeoInfo_ShouldHaveIdentifier()
+        {
+            var element = new ElementGeoInfo(kod: "GOSZZG", typ: 1);
+            Should.Throw<InvalidOperationException>(() => { var id = element.Identifier; });
+        }
+
+
+        [TestMethod]
+        public void ElementGeoInfo_ShouldHaveIdentifierEqualsId()
+        {
+            var element = new ElementGeoInfo(kod: "GOSZZG", typ: 1);
+            element.DodajAtrybut(new AtrybutGeoInfo(nazwa: "_identifier", wartość: "Id"));
+            element.Identifier.ShouldBe(expected: "Id");
+        }
+
         [TestMethod]
         public void test_czy_kod_zakresu_jest_goszzg()
         {

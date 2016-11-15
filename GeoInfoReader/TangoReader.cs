@@ -60,19 +60,19 @@ namespace GeoInfoReader
         void ReadObiekt()
         {
             var recordA = CurrentRecord;
-            var zakres = recordA.ParsujElement();
+            var obiekt = recordA.ParsujElement();
             NextRecord();
             while (NieKoniec && !RecordA)
             {
                 if (RecordB)
                 {
                     var punkt = CurrentRecord.ParsujPunkt();
-                    zakres.DodajPunkt(punkt);
+                    obiekt.DodajPunkt(punkt);
                 }
                 else if (RecordC)
                 {
                     var atrybut = CurrentRecord.ParsujAtrybut();
-                    zakres.DodajAtrybut(atrybut);
+                    obiekt.DodajAtrybut(atrybut);
                 }
                 else if (RecordD) CurrentRecord.ParsujEtykietę();
                 else if (RecordE) CurrentRecord.ParsujRelację();
@@ -80,7 +80,11 @@ namespace GeoInfoReader
                 else if (RecordO) CurrentRecord.ParsujO();
                 else if (RecordP) CurrentRecord.ParsujP();
                 else if (RecordV) CurrentRecord.ParsujV();
-                else if (RecordX) CurrentRecord.ParsujDokument();
+                else if (RecordX)
+                {
+                    var dokument = CurrentRecord.ParsujDokument();
+                    obiekt.DodajDokument(dokument);
+                }
                 else if (RecordY) CurrentRecord.ParsujSkalę();
                 else
                 {
@@ -89,7 +93,7 @@ namespace GeoInfoReader
                 }
                 NextRecord();
             }
-            _mapa.DodajElement(zakres);
+            _mapa.DodajElement(obiekt);
         }
 
     }

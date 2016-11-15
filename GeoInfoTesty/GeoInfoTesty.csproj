@@ -67,7 +67,7 @@
     <Compile Include="GeoInfoZakresyTest.cs" />
     <Compile Include="MapaGeoInfoTest.cs" />
     <Compile Include="GeomediaWriterTest.cs" />
-    <Compile Include="ZakresTest.cs" />
+    <Compile Include="ElementGeoInfoTest.cs" />
     <Compile Include="TangoReaderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

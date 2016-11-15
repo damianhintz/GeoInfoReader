@@ -3,12 +3,32 @@ using System.IO;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GeoInfoReader;
+using Shouldly;
 
 namespace NysaZakresyTesty.GeoInfo
 {
     [TestClass]
     public class GeoInfoReaderTest
     {
+        [TestMethod]
+        public void TangoReader_ShouldReadDocumentsAttachedToObjects()
+        {
+            var mapa = new MapaGeoInfo();
+            var reader = new TangoReader(mapa);
+            reader.Wczytaj(Path.Combine(@"..\..\..\Samples", "goszzg.giv"));
+            mapa.ShouldNotBeEmpty();
+            var obiekt1 = mapa.SzukajId(id: "273000600000705074");
+            obiekt1.Dokumenty.ShouldNotBeEmpty();
+            //X,"1","160706_5.0004.032_1976.001.tif","SZKICE"
+            var dokument = obiekt1.Dokumenty.Single();
+            dokument.Nazwa.ShouldBe("1");
+            dokument.Plik.ShouldBe("160706_5.0004.032_1976.001.tif");
+            dokument.Folder.ShouldBe("SZKICE");
+            //273000600000539437
+            var obiekt2 = mapa.SzukajId(id: "273000600000539437");
+            obiekt2.Dokumenty.ShouldBeEmpty();
+        }
+
         [TestMethod]
         public void test_czy_geoinfo_reader_czyta_układ_punktu()
         {

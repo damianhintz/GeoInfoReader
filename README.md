@@ -1,4 +1,4 @@
-GeoInfoReader v1.1-beta, 11 listopada 2016
+GeoInfoReader v1.2-beta, 12 listopada 2016
 ---
 Czytnik plików GEO-INFO V i TANGO.
 
@@ -79,6 +79,11 @@ Jest to projekt na tydzień.
 Do zrobienia:
 
 - [ ] podręcznik użytkownika
+
+2016-11-14 v1.2-beta
+
+* nowość: dokumenty obiektu
+* nowość: wyszukiwanie obiektów według identyfikatora
 
 2016-11-11 v1.1-beta
 
