@@ -26,7 +26,10 @@ namespace GeoInfoZakresy
             var ośrodek = new RaportDowolny();
             var zakresyBezP = ośrodek
                 .ZakresyNieWystępująWOśrodku(nachodząceZakresy)
-                .Select(z => z.Identifier);
+                .Select(z => z.Identifier + "\t" + 
+                    z.Operat + "\t" + 
+                    z.NumerObrębu + "\t" +
+                    z.Atrybuty.SingleOrDefault(a => "_modification_date".Equals(a.Nazwa)).Wartość);
             Console.WriteLine(zakresyBezP.Count());
             File.WriteAllLines("Temp.txt", zakresyBezP);
             Process.Start("Temp.txt");
