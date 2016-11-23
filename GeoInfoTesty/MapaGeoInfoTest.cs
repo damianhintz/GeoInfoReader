@@ -46,7 +46,10 @@ namespace NysaZakresyTesty.GeoInfo
         public void test_czy_zakresy_zostały_dodane()
         {
             var zakresy = new MapaGeoInfo();
-            zakresy.DodajElement(new ElementGeoInfo(kod: "GOSZZG", typ: 1));
+            var id = new AtrybutGeoInfo(nazwa: "_identifier", wartość: "1234");
+            var element = new ElementGeoInfo(kod: "GOSZZG", typ: 1);
+            element.DodajAtrybut(id);
+            zakresy.DodajElement(element);
             Assert.AreEqual(expected: 1, actual: zakresy.Count());
         }
 
@@ -64,6 +67,8 @@ namespace NysaZakresyTesty.GeoInfo
             var zakresy = new MapaGeoInfo();
             var zakres = new ElementGeoInfo(kod: "GOSZZG", typ: 1);
             //C,KRG.n=473-414/12/1980
+            var id = new AtrybutGeoInfo(nazwa: "_identifier", wartość: "1234");
+            zakres.DodajAtrybut(atrybut: id);
             var numerOperatu = new AtrybutGeoInfo(nazwa: "KRG.n", wartość: "473-414/12/1980");
             zakres.DodajAtrybut(atrybut: numerOperatu);
             zakresy.DodajElement(zakres);
@@ -80,6 +85,8 @@ namespace NysaZakresyTesty.GeoInfo
             var zakresy = new MapaGeoInfo();
             var zakres = new ElementGeoInfo(kod: "GOSZZG", typ: 1);
             //C,KRG.n=473-414/12/1980
+            var id = new AtrybutGeoInfo(nazwa: "_identifier", wartość: "1234");
+            zakres.DodajAtrybut(id);
             var numerOperatu = new AtrybutGeoInfo(nazwa: "KRG.n", wartość: "473-414/12/1980");
             zakres.DodajAtrybut(atrybut: numerOperatu);
             zakresy.DodajElement(zakres);
@@ -94,6 +101,8 @@ namespace NysaZakresyTesty.GeoInfo
             var zakresy = new MapaGeoInfo();
             var zakres = new ElementGeoInfo(kod: "GOSZZG", typ: 1);
             //C,KRG.n=473-414/12/1980
+            var id = new AtrybutGeoInfo(nazwa: "_identifier", wartość: "1234");
+            zakres.DodajAtrybut(atrybut: id);
             var numerOperatu = new AtrybutGeoInfo(nazwa: "KRG.n", wartość: "473-414/12/1980");
             zakres.DodajAtrybut(atrybut: numerOperatu);
             zakresy.DodajElement(zakres);

@@ -95,9 +95,9 @@ namespace NysaZakresyTesty.GeoInfo
         {
             var zakresy = new MapaGeoInfo();
             var zakresyReader = new TangoReader(zakresy);
-            var zakresyPath = Path.Combine(@"..\..\..\Samples", "Nysa_zakresy.giv");
+            var zakresyPath = Path.Combine(@"..\..\..\Samples", "GOSZZG.giv");
             zakresyReader.Wczytaj(zakresyPath);
-            Assert.AreEqual(expected: 21956, actual: zakresy.Count());
+            Assert.AreEqual(expected: 26890, actual: zakresy.Count());
             var pierwszyZakres = zakresy.First();
             Assert.AreEqual("GOSZZG", pierwszyZakres.Kod);
             Assert.AreEqual(3, pierwszyZakres.Typ);
@@ -110,13 +110,13 @@ namespace NysaZakresyTesty.GeoInfo
             var ostatniZakres = zakresy.Last();
             Assert.AreEqual("GOSZZG", ostatniZakres.Kod);
             Assert.AreEqual(3, ostatniZakres.Typ);
-            Assert.AreEqual("11384480", ostatniZakres.Id);
-            Assert.AreEqual("GG-III.6640.1773.2016", ostatniZakres.Operat);
+            Assert.AreEqual("11448216", ostatniZakres.Id);
+            Assert.AreEqual("GG-III.6640.2181.2016", ostatniZakres.Operat);
             Assert.AreEqual(6, ostatniZakres.Punkty.Count());
             Assert.AreEqual(31, ostatniZakres.Atrybuty.Count());
             Assert.AreEqual(0, ostatniZakres.Etykiety.Count());
             Assert.AreEqual(0, ostatniZakres.Obiekty.Count());
-            Assert.AreEqual(expected: "0018", actual: ostatniZakres.NumerObrębu);
+            Assert.AreEqual(expected: "0002", actual: ostatniZakres.NumerObrębu);
         }
     }
 }
