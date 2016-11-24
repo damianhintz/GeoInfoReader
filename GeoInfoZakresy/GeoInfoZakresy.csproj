@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Domain\IndeksP.cs" />
     <Compile Include="Domain\RaportDowolny.cs" />
+    <Compile Include="Domain\Rozszerzenia\IdObr.cs" />
     <Compile Include="Domain\Rozszerzenia\ZakresyRozszerzenia.cs" />
     <Compile Include="Domain\Zakresy.cs" />
     <Compile Include="Program.cs" />
@@ -64,6 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Operaty zasobu.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +75,11 @@
       <Project>{557aa63c-93d0-49c8-b744-6ce7c868da4f}</Project>
       <Name>GeoInfoReader</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Identifier_do_sprawdzenia.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
